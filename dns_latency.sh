@@ -53,6 +53,7 @@ for provider do
   echo "-- Provider IP: $provider_ip"
   echo
 
+  i=1
   while [ $i -le $TEST_TIMES ]; do
     if [ $i -eq 1 ]
     then
